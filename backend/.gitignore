@@ -1,0 +1,36 @@
+
+# .NET build/output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userprefs
+*.userosscache
+*.sln.docstates
+
+# Local development
+appsettings.Development.json
+
+# Docker
+Dockerfile
+docker-compose.*
+.dockerignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+*.trx
+
+# Mac
+.DS_Store

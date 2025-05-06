@@ -1,0 +1,43 @@
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+build/
+dist/
+.next/
+out/
+
+# Cache
+.cache/
+.turbo
+
+# Environment
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Docker
+Dockerfile
+docker-compose.*
+.dockerignore
